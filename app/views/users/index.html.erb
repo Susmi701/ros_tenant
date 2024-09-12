@@ -1,0 +1,18 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Projects</h1>
+
+<div id="projects">
+  <% @users.each do |project| %>
+    <div id="<%= dom_id project %>">
+  <p>
+    <strong>Title:</strong>
+    <%= project.email %>
+  </p>
+
+</div>
+
+    <p>
+    </p>
+  <% end %>
+</div>
